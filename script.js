@@ -1,4 +1,4 @@
-const API_KEY = "5879acfdf2e34c7e8f32d7bf49c01dc8";
+const API_KEY = "YOUR_API_KEY_HERE";
 const cityInput = document.getElementById("cityInput");
 const countryInput = document.getElementById("countryInput");
 const searchBtn = document.getElementById("searchBtn");
@@ -118,4 +118,5 @@ searchBtn.addEventListener('click', () => {
     if(!city) return alert('Please enter a city!');
     const useMock = mockToggle.checked;
     fetchWeather(city, country, useMock);
+
 });
