@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: hsla(171 100% 21.5% / 0.91);
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
@@ -176,4 +176,5 @@ button:hover {
 .day-card .meta {
     font-size: 12px;
     opacity: 0.95;
+
 }
