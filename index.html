@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App — 10 Day Masonry</title>
+  
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+
+<body>
+  <div id="weather-container">
+    <h2>Weather App</h2>
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name (e.g. Tirupati)" />
+      <input type="text" id="countryInput" class="country" placeholder="IN (optional)" maxlength="2" />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <label style="display:block; margin-bottom:12px;">
+      <input type="checkbox" id="mockToggle" /> Use Mock Data (force mock all 10 days)
+    </label>
+
+    <div id="weatherBox"></div>
+
+    <!-- Masonry Grid -->
+    <div class="masonry-grid" id="masonryGrid"></div>
+  </div>
+
+  <script src='script.js'></script>
+  
+</body>
+</html>
